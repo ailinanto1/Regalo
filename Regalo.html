@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Regalo.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo</title>
+</head>
+
+<body>
+    <section class="inicio">
+        <div class="contenido">
+            <h1>Desde 30-11-2024 hasta el infinito</h1>
+            <p>Con el amor más sincero que tengo</p>
+            <button><span>💖</span>Nuestra historia</button>
+        </div>
+    </section>
+    <section class="recuerdos">
+        <h2>Nuestros Recuerdos</h2>
+
+        <div class="grid-recuerdos">
+
+            <!-- Recuerdo 5 -->
+            <div class="recuadro">
+                <img src="recuerdo5.jpeg" alt="Recuerdo 5">
+                <p class="fecha">17/11/2024</p>
+                <h3>Nuestros primeros momentos</h3>
+                <p>El comienzo de una linda historia</p>
+            </div>
+
+            <!-- recuerdo 1 -->
+            <div class="recuadro">
+                <img src="Recuerdo1.jpeg" alt="Recuerdo 1">
+                <p class="fecha">27/12/2024</p>
+                <h3>El día de tu cumpleaños</h3>
+                <p>Tu primer cumpleaños juntos</p>
+            </div>
+
+            <!-- Recuerdo 6 -->
+            <div class="recuadro">
+                <img src="recuerdo6.jpeg" alt="Recuerdo 6">
+                <p class="fecha">11/01/2025</p>
+                <h3>Primer almuerzo en la costa</h3>
+                <p>Disfrutando de comidita a la orilla del agua</p>
+            </div>
+
+            <!-- Recuerdo 7 -->
+            <div class="recuadro">
+                <img src="recuerdo7.jpeg" alt="Recuerdo 7">
+                <p class="fecha">14/01/2025</p>
+                <h3>Pasando un momento juntos</h3>
+                <p>Junto a nustra hija</p>
+            </div>
+
+            <!-- Recuerdo 8 -->
+            <div class="recuadro">
+                <img src="recuerdo8.jpeg" alt="Recuerdo 8">
+                <p class="fecha">13/03/2025</p>
+                <h3>Un cumpleaños diferente</h3>
+                <p>Mi primer cumpleaños a tu lado</p>
+            </div>
+
+
+            <!-- Recuerdo 2 -->
+            <div class="recuadro">
+                <img src="recuerdo2.jpeg" alt="Recuerdo 2">
+                <p class="fecha">16/03/2025</p>
+                <h3>Nuestra primera salida juntos</h3>
+                <p>Una noche inolvidable</p>
+            </div>
+
+            <!-- Recuerdo 3 -->
+            <div class="recuadro">
+                <img src="recuerdo3.jpeg" alt="Recuerdo 3">
+                <p class="fecha">24/04/2025</p>
+                <h3>Un día más a tu lado</h3>
+                <p>Cuando me seguía enamorando de vos</p>
+            </div>
+
+            <!-- Recuerdo 10 -->
+            <div class="recuadro">
+                <img src="recuerdo10.jpeg" alt="Recuerdo 10">
+                <p class="fecha">13/07/2025</p>
+                <h3>Caminata en San Javier</h3>
+                <p>Primera voz conociendo a mi familia</p>
+            </div>
+
+            <!-- Recuerdo 4 -->
+            <div class="recuadro">
+                <img src="recuerdo4.jpeg" alt="Recuerdo 4">
+                <p class="fecha">18/07/2025</p>
+                <h3>La mejor salida</h3>
+                <p>Una juntada llena de risas y complicidad</p>
+            </div>
+        </div>
+    </section>
+    <section id="meses">
+        <h2>Mes a Mes</h2>
+
+        <div class="botones-mes">
+            <button class="mes-btn active" data-mes="noviembre">Noviembre</button>
+            <button class="mes-btn" data-mes="diciembre">Diciembre</button>
+            <button class="mes-btn" data-mes="enero">Enero</button>
+            <button class="mes-btn" data-mes="febrero">Febrero</button>
+            <button class="mes-btn" data-mes="marzo">Marzo</button>
+            <button class="mes-btn" data-mes="abril">Abril</button>
+            <button class="mes-btn" data-mes="mayo">Mayo</button>
+            <button class="mes-btn" data-mes="junio">Junio</button>
+            <button class="mes-btn" data-mes="julio">Julio</button>
+            <button class="mes-btn" data-mes="agosto">Agosto</button>
+        </div>
+
+        <p id="descripcion-mes">Mes actual: Noviembre</p>
+
+        <div class="galeria-mes" id="galeria-noviembre">
+            <div class="card">
+                <img src="nov1.jpeg" alt="Recuerdo noviembre 1">
+            </div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_noviembre.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-diciembre" style="display:none;">
+            <div class="card"><img src="dic1.jpeg" alt="Recuerdo diciembre 1"></div>
+            <div class="card"><img src="dic2.jpeg" alt="Recuerdo diciembre 2"></div>
+            <div class="card"><img src="dic3.jpeg" alt="Recuerdo diciembre 3"></div>
+            <div class="card"><img src="dic4.jpeg" alt="Recuerdo diciembre 4"></div>
+            <div class="card"><img src="dic5.jpeg" alt="Recuerdo diciembre 5"></div>
+
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_diciembre.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-enero" style="display:none;">
+            <div class="card"><img src="Recuerdo6.jpeg" alt="Recuerdo enero 1"></div>
+            <div class="card"><img src="enero1.jpeg" alt="Recuerdo enero 2"></div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_enero1.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_enero2.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_enero3.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_enero4 .mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-febrero" style="display:none;">
+            <div class="card"><img src="febrero1.jpeg" alt="Recuerdo febrero 1"></div>
+            <div class="card"><img src="febrero2.jpeg" alt="Recuerdo febrero 2"></div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-marzo" style="display:none;">
+            <div class="card"><img src="marzo1.jpeg" alt="Recuerdo marzo 1"></div>
+            <div class="card"><img src="marzo2.jpeg" alt="Recuerdo marzo 2"></div>
+            <div class="card"><img src="marzo3.jpeg" alt="Recuerdo marzo 3"></div>
+            <div class="card"><img src="marzo4.jpeg" alt="Recuerdo marzo 4"></div>
+            <div class="card"><img src="marzo5.jpeg" alt="Recuerdo marzo 5"></div>
+            <div class="card"><img src="marzo6.jpeg" alt="Recuerdo marzo 6"></div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-abril" style="display:none;">
+            <div class="card"><img src="abril1.jpeg" alt="Recuerdo abril 1"></div>
+            <div class="card"><img src="abril2.jpeg" alt="Recuerdo abril 2"></div>
+            <div class="card"><img src="abril3.jpeg" alt="Recuerdo abril 3"></div>
+            <div class="card"><img src="abril4.jpeg" alt="Recuerdo abril 4"></div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-mayo" style="display:none;">
+            <div class="card"><img src="mayo1.jpeg" alt="Recuerdo mayo 1"></div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_mayo1.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-junio" style="display:none;">
+            <img src="dic1.jpg" alt="Recuerdo junio 1">
+            <img src="dic2.jpg" alt="Recuerdo junio 2">
+            <img src="dic3.jpg" alt="Recuerdo junio 3">
+        </div>
+
+        <div class="galeria-mes" id="galeria-julio" style="display:none;">
+            <div class="card"><img src="Recuerdo10.jpeg" alt="Recuerdo julio 1"></div>
+            <div class="card"><img src="julio1.jpeg" alt="Recuerdo julio 2"></div>
+            <div class="card"><img src="julio2.jpeg" alt="Recuerdo julio 3"></div>
+        </div>
+
+        <div class="galeria-mes" id="galeria-agosto" style="display:none;">
+            <div class="card"><img src="agosto1.jpeg" alt="Recuerdo agosto 1"></div>
+            <div class="card"><img src="agosto2.jpeg" alt="Recuerdo agosto 2"></div>
+            <div class="card">
+                <video controls width="500">
+                    <source src="video_agosto1.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="datos-curiosos">
+        <h2>Datos Curiosos de Alexis</h2>
+
+        <div class="carrusel">
+            <button id="prev">❮</button>
+
+            <div id="dato" class="dato">
+                Helado favorito: Menta granizada
+            </div>
+
+            <button id="next">❯</button>
+        </div>
+    </section>
+    <section class="tiempo-juntos" id="tiempo">
+        <h2>Tiempo Juntos Como Novios</h2>
+
+        <div class="panel-tiempo">
+            <div class="icono-corazon">❤️</div>
+            <p class="desde">Desde el <strong>30 de noviembre de 2024</strong> a las <strong>5:00 PM</strong></p>
+
+            <div class="reloj">
+                <div class="unidad">
+                    <span id="dias">0</span>
+                    <small>Días</small>
+                </div>
+                <div class="unidad">
+                    <span id="horas">00</span>
+                    <small>Horas</small>
+                </div>
+                <div class="unidad">
+                    <span id="minutos">00</span>
+                    <small>Minutos</small>
+                </div>
+                <div class="unidad">
+                    <span id="segundos">00</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+            <p class="frase">“Cada segundo a tu lado me hace feliz”.</p>
+        </div>
+    </section>
+    <section class="objetivos-section">
+        <h2 class="titulo-seccion">Nuestros Objetivos</h2>
+        <div class="objetivos-container" id="objetivos-container"></div>
+    </section>
+    <section class="playlist-section" id="playlist-juntos">
+        <h2 class="titulo-seccion">Nuestra Playlist</h2>
+
+        <div class="playlist-card">
+            <div class="playlist-embed" id="playlist-embed"></div>
+
+            <div class="playlist-controls">
+                <button class="playlist-btn" id="pl-prev" aria-label="anterior">‹</button>
+                <span class="playlist-title" id="playlist-title">—</span>
+                <button class="playlist-btn" id="pl-next" aria-label="siguiente">›</button>
+            </div>
+
+            <div class="playlist-pills" id="playlist-pills"></div>
+        </div>
+
+        <p class="playlist-tip">
+            Cada canción que nos recuerda a nosotros
+        </p>
+    </section>
+    <section class="test-amor-section" id="test-amor">
+        <h2 class="titulo-seccion">Test de Pareja</h2>
+        <div class="quiz-card">
+            <div class="quiz-progress" id="quiz-progress"></div>
+
+            <div id="quiz-container"></div>
+
+            <div class="quiz-nav">
+                <button class="quiz-btn" id="quiz-prev" disabled>Anterior</button>
+                <button class="quiz-btn" id="quiz-next">Siguiente</button>
+            </div>
+
+            <div class="quiz-result hidden" id="quiz-result"></div>
+        </div>
+    </section>
+    <script src="regalo.js"></script>
+</body>
+</html>
